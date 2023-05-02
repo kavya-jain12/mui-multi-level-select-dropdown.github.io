@@ -1,0 +1,46 @@
+.MuiOutlinedInput-notchedOutline {
+    border-width: 1px !important;
+    border-color: #B5BAC8;
+
+    &:focus {
+        border-color: #4036ED !important;
+    }
+}
+
+.MuiPaper-root {
+    margin-top: 8px;
+    background: #F8F8FA !important;
+    border-radius: 0 !important;
+}
+
+.MuiMenu-list {
+    padding: 0 !important;
+}
+
+.InputLabel-root {
+    color: #071948 !important;
+}
+
+.MuiSelect-iconOpen {
+    color: #4036ED !important;
+}
+
+.MuiListItem-endAction {
+    margin-top: 2px;
+}
+
+.Mui-list-item-head {
+    .MuiTypography-root {
+        margin-left: 20px;
+    }
+
+    .MuiListItem-endAction {
+        left: 0;
+        margin-left: 5px;
+    }
+}
+
+.MuiBadge-badge {
+    color: #4036ED;
+    background-color: #F3EEFF;
+}
