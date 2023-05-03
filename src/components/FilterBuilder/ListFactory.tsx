@@ -24,10 +24,10 @@ export const ListFactory = () => {
     return (
         <span>
             {depth === 0 ?
-                category.length > 0 &&
-                category.map((filter: any) => generateMenu(filter))
+                (category.length > 0 &&
+                    category.map((filter: any) => generateMenu(filter)))
                 : category.filter((item: any) => item.selected).map((filter: any) => generateMenu(filter))
             }
-        </span >
+        </span>
     )
 }
