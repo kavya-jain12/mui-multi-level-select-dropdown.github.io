@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/multi-level-select-dropdown/static/css/main.2c51baac.css",
-    "main.js": "/multi-level-select-dropdown/static/js/main.51aa6512.js",
-    "static/js/787.7366dc2e.chunk.js": "/multi-level-select-dropdown/static/js/787.7366dc2e.chunk.js",
-    "index.html": "/multi-level-select-dropdown/index.html",
-    "main.2c51baac.css.map": "/multi-level-select-dropdown/static/css/main.2c51baac.css.map",
-    "main.51aa6512.js.map": "/multi-level-select-dropdown/static/js/main.51aa6512.js.map",
-    "787.7366dc2e.chunk.js.map": "/multi-level-select-dropdown/static/js/787.7366dc2e.chunk.js.map"
+    "main.css": "/kavya-jain12/multi-level-select-dropdown.github.io.git/static/css/main.2c51baac.css",
+    "main.js": "/kavya-jain12/multi-level-select-dropdown.github.io.git/static/js/main.8979c1a7.js",
+    "static/js/787.7366dc2e.chunk.js": "/kavya-jain12/multi-level-select-dropdown.github.io.git/static/js/787.7366dc2e.chunk.js",
+    "index.html": "/kavya-jain12/multi-level-select-dropdown.github.io.git/index.html",
+    "main.2c51baac.css.map": "/kavya-jain12/multi-level-select-dropdown.github.io.git/static/css/main.2c51baac.css.map",
+    "main.8979c1a7.js.map": "/kavya-jain12/multi-level-select-dropdown.github.io.git/static/js/main.8979c1a7.js.map",
+    "787.7366dc2e.chunk.js.map": "/kavya-jain12/multi-level-select-dropdown.github.io.git/static/js/787.7366dc2e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2c51baac.css",
-    "static/js/main.51aa6512.js"
+    "static/js/main.8979c1a7.js"
   ]
 }
