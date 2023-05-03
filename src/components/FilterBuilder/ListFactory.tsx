@@ -16,8 +16,7 @@ export const ListFactory = () => {
                 p: 0,
                 m: 0,
                 textTransform: 'capitalize'
-            }
-            }>
+            }}>
             <FilterByType filter={filter} />
         </MenuItem>
     }

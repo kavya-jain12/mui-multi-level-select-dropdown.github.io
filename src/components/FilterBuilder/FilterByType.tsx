@@ -44,7 +44,9 @@ export const FilterByType = ({ filter }: FilterByTypeProps) => {
                 bgcolor: '#FFF',
             }}
             className={selected ? 'display-block' : 'display-none'}>
-            <List size="sm">
+            <List
+                size="sm"
+                data-testid="select-inner-list">
                 <ListItem
                     nested
                     onClick={() => {
@@ -107,6 +109,7 @@ export const FilterByType = ({ filter }: FilterByTypeProps) => {
                                 }}>
                                 <Badge
                                     badgeContent={1}
+                                    data-testid='inner-badge'
                                     componentsProps={{ root: { style: { width: '100%' } } }}>
                                 </Badge>
                             </Box>

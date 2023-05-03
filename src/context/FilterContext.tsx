@@ -43,9 +43,13 @@ export const FilterContextProvider = ({ children }: any): any => {
         dispatch(prevDepthAction({ depth: depth, category: result }))
     }
 
-    const updateValue = (id: number, value: string) => {
+    const updateValue = (id: number, value: string | null) => {
+        let updateSelectedValue = value
+        if (category.find((item: any) => item.selectedValue === value)) {
+            updateSelectedValue = null
+        }
         const updateValue = update(category, id, {
-            selectedValue: value
+            selectedValue: updateSelectedValue
         })
 
         dispatch(updateValueAction({ category: updateValue }))

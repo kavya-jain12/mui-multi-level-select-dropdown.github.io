@@ -41,8 +41,9 @@ export const FilterBuilder = () => {
                     <Badge
                         badgeContent={totalBadgeCount}
                         sx={badgeStyle()}
+                        data-testid='inner-badge'
                         componentsProps={{ root: { style: { width: '100%' } } }}>
-                        Filters
+                        {'Filters'}
                     </Badge>
                 }
             />
@@ -60,7 +61,8 @@ export const FilterBuilder = () => {
                     }
                 }}
                 IconComponent={KeyboardArrowDownIcon}
-                input={<OutlinedInput name="Filters" />}>
+                input={<OutlinedInput name="Filters" />}
+                data-testid="select-outer-list">
                 {ListFactory()}
             </Select>
         </FormControl>

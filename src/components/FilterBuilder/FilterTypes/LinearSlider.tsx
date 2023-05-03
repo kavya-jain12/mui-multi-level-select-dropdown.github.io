@@ -17,7 +17,7 @@ export const LinearSlider = ({ filter, handleSliderChange }: FilterByProps) => {
     const [value, setValue] = useState<number | number[]>(0)
 
     return (
-        <Box onMouseUp={() => handleSliderChange(value)}>
+        <Box onMouseUp={() => value >= options[0].value ? handleSliderChange(value) : null}>
             <ListDivider inset={'context'} />
             <Slider
                 sx={{
@@ -31,6 +31,7 @@ export const LinearSlider = ({ filter, handleSliderChange }: FilterByProps) => {
                 max={options[1].value}
                 key={`slider-${selectedValue}`}
                 defaultValue={selectedValue}
+                data-testid="select-inner-list-slider"
                 valueLabelDisplay={selectedValue ? 'on' : 'auto'}
                 onChange={(event: Event, newValue: number | number[]) => setValue(newValue)}
             />

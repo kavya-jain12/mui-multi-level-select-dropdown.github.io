@@ -21,7 +21,9 @@ export const SelectList = ({ filter, handleListFilter }: FilterByProps) => {
     const { options, selected, selectedValue } = filter;
 
     return (
-        <List size='sm'>
+        <List
+            size='sm'
+            data-testid="select-outer-sub-list">
             <ListDivider inset={'context'} />
             {options.length > 0
                 && options.map((option: { value: string, label: string }, index: number) => {
@@ -33,6 +35,7 @@ export const SelectList = ({ filter, handleListFilter }: FilterByProps) => {
                                     py: 0,
                                     m: 0
                                 }}
+                                data-testid="select-inner-sub-list"
                                 key={option.value}
                                 onClick={handleListFilter}>
                                 <ListItemButton
