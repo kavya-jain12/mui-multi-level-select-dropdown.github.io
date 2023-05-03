@@ -1,46 +1,28 @@
-# Getting Started with Create React App
+# UX/UI Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+v2.0
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+Thanks for taking the time to work on this project.
 
-### `npm start`
+At the following URL: [https://www.figma.com/file/8AthvbJmB5qA9hdUbC7SSt/Filters?node-id=0-1&t=NjxJNIDxvSfW6x7D-0](https://www.figma.com/file/8AthvbJmB5qA9hdUbC7SSt/Filters?node-id=0-1&t=NjxJNIDxvSfW6x7D-0) you find a Figma board representing a dropdown component and some of its states (open, closed, empty, selected, ...). The task is to implement this component using React with TypeScript.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The component is part of an internal UI library and it needs to be designed to be reusable and with well defined `props`.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. The list of options must be passed as a prop from the outside
 
-### `npm test`
+2. The component must handle callback when filters are selected/unselected
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+We are asking you to:
 
-### `npm run build`
+1. Add your code in this repository and open a Pull Request when you think you have finished.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Host your work somewhere on the web and add the link to the PR **OR** create a zip file with the static build of your project and attach it to the PR, so that we will have a running version of the component to play with.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+We will look at the final results in the browser and at the structure of the code, when we'll meet these are some examples of questions:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Which assumptions have you made?
+* What is allowing the component to be reusable in your proposal?
+* What is allowing the component to be customisable in your proposal?
+* How have you enforced the quality of the solution? (i.e. which tests)
