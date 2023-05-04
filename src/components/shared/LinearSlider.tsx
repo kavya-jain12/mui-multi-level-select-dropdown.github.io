@@ -9,15 +9,15 @@ type optionProps = {
 
 type FilterByProps = {
     filter: optionProps
-    handleSliderChange: (value: number | number[]) => void
+    sliderChangeHandler: (value: number | number[]) => void
 }
 
-export const LinearSlider = ({ filter, handleSliderChange }: FilterByProps) => {
+export const LinearSlider = ({ filter, sliderChangeHandler }: FilterByProps) => {
     const { options, selectedValue } = filter
     const [value, setValue] = useState<number | number[]>(0)
 
     return (
-        <Box onMouseUp={() => value >= options[0].value ? handleSliderChange(value) : null}>
+        <Box onMouseUp={() => value >= options[0].value ? sliderChangeHandler(value) : null}>
             <ListDivider inset={'context'} />
             <Slider
                 sx={{

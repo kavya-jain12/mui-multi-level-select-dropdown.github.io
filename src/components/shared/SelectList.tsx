@@ -14,10 +14,10 @@ type optionProps = {
 
 type FilterByProps = {
     filter: optionProps
-    handleListFilter: (event: any) => void
+    listFilterHandler: (event: any) => void
 }
 
-export const SelectList = ({ filter, handleListFilter }: FilterByProps) => {
+export const SelectList = ({ filter, listFilterHandler }: FilterByProps) => {
     const { options, selected, selectedValue } = filter;
 
     return (
@@ -37,7 +37,7 @@ export const SelectList = ({ filter, handleListFilter }: FilterByProps) => {
                                 }}
                                 data-testid="select-inner-sub-list"
                                 key={option.value}
-                                onClick={handleListFilter}>
+                                onClick={listFilterHandler}>
                                 <ListItemButton
                                     key={option.value}
                                     selected={selectedValue === option.value}

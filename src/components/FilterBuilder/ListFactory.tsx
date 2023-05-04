@@ -20,6 +20,7 @@ export const ListFactory = () => {
             <FilterByType filter={filter} />
         </MenuItem>
     }
+
     return (
         <span>
             {depth === 0 ?
