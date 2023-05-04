@@ -8,9 +8,10 @@ import {
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 import 'src/assets/scss/filter.scss';
-import { ListFactory } from 'src/components/FilterBuilder/ListFactory';
-import { FilterContext } from 'src/context/FilterContext';
 import { CustomBadge } from '../shared/CustomBadge';
+import { FilterContext } from 'src/containers/FilterContext';
+import { ListFactory } from 'src/components/FilterBuilder/ListFactory';
+
 
 export const FilterBuilder = () => {
     const [openFilter, setOpenFilter] = useState(false);

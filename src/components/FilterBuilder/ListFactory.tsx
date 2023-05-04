@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import MenuItem from '@mui/material/MenuItem';
 
-import { FilterContext } from 'src/context/FilterContext';
+import { FilterContext } from 'src/containers/FilterContext';
 import { FilterByType } from 'src/components/FilterBuilder/FilterByType';
 import { filterTypes } from 'src/reducer/InitialStateType';
 

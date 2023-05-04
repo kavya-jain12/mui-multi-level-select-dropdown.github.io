@@ -7,11 +7,12 @@ import {
     ListDivider
 } from '@mui/joy';
 
-import { FilterContext } from 'src/context/FilterContext';
-import { SelectList } from 'src/components/shared/SelectList';
-import { LinearSlider } from 'src/components/shared/LinearSlider';
 import { CustomBadge } from '../shared/CustomBadge';
 import { ArrowButton } from '../shared/ArrowButton';
+import { FilterContext } from 'src/containers/FilterContext';
+import { SelectList } from 'src/components/shared/SelectList';
+import { LinearSlider } from 'src/components/shared/LinearSlider';
+
 
 type FilterByTypeProps = {
     filter: any
